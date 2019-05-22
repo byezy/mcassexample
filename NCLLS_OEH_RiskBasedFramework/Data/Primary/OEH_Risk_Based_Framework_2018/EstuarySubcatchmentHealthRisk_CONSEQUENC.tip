@@ -1,0 +1,37 @@
+Title: EstuarySubcatchmentHealthRisk_CONSEQUENC
+Description: Consequence data represent the ecological response as determined from CERAT models (chlorophylla, turbidity), and proximity to environmental assets. 
+_1: _
+URL1: Risk-based framework: https://www.environment.nsw.gov.au/research-and-publications/publications-search/risk-based-framework-for-considering-waterway-health-outcomes-in-strategic-land-use-planning
+URL2: Water quality 1: https://www.environment.nsw.gov.au/research-and-publications/publications-search/investing-in-our-catchments-water-quality-and-its-role-in-river-health
+URL3: Water quality 2: https://www.environment.nsw.gov.au/water/planningusingwqos.htm
+File1: File:DataDescription_EstuarySubcatchmentHealthRisk.pdf
+File2: None
+File3: None
+_2: _
+Source_Custodian: NSW Office of Environment and Heritage
+Source_Currency: Updated on 31/07/2018
+Source_Lineage: The subcatchment boundaries were created using ArcHydro tools using a 25 m digital elevation model. Flow directions were constrained by known Hydrolines (stream network) and the upper tidal limit boundaries, which were created as part of the NSW Monitoring, Evaluation and Reporting Strategy 2010-2015.
+Source_Resolution: Sub-catchments
+Source_Projection: Geographic GCS_GDA_1994
+Source_Extent_Region: NSW
+Source_Extent_Coordinates: None
+Source_Data_Format: Feature Polygon
+_3: _
+MCAS_S_Currency: 2018-08-03 00:00:00
+MCAS_S_Lineage: Derived from OEH Data suppplied by Jocelyn Dela-Cruz <Jocelyn.Dela-Cruz@environment.nsw.gov.au>
+MCAS_S_Resolution: 100
+MCAS_S_Projection: GDA_1994_UTM_Zone_56S
+MCAS_S_Extent_Region: NSW North Coast Catchments
+MCAS_S_Extent_Coordinates: 346600 6478200 568100 6886200 NaN NaN NaN NaN
+MCAS_S_Data_Format: RasterDataset
+MCAS_S_Data_type: tif
+_4: _
+MCAS_S_Units: Annual total surface flows (L/y) exported from each subcatchment
+MCAS_S_Units_Ranking: Consequence is ranked from 1 (lowest) to 4 (highest).
+MCAS_S_Contact_Organization: NSW OEH
+MCAS_S_Contact_Name: Tom Barrett
+MCAS_S_Contact_e_mail: tom.barrett@environment.nsw.gov.au
+_5: _
+CategoryValue: Value
+CategoryLabel: CONSEQUENC
+CategorySort: true

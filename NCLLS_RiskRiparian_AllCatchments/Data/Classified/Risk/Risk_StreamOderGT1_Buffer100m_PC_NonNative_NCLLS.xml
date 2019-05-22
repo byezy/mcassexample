@@ -1,0 +1,17 @@
+﻿<classified-data reverse="True" min-value="0" max-value="100" float-data="True"><class name="Class 1" color="81,38,255" /><class name="Class 2" color="38,96,255" /><class name="Class 3" color="38,197,255" /><class name="Class 4" color="38,255,211" /><class name="Class 5" color="38,255,110" /><class name="Class 6" color="67,255,38" /><class name="Class 7" color="168,255,38" /><class name="Class 8" color="255,240,38" /><class name="Class 9" color="255,139,38" /><class name="Class 10" color="255,38,38" /><log-text>
+
+Layer 'StreamOderGT1_Buffer100m_PC_NonNative' is a composite layer producing 10 classes
+The composite function is generated from: ({StreamOrderGT1_Buffer100m_Native_count_NCLLS}/({StreamOrderGT1_Buffer100m_NonNative_count_NCLLS}+{StreamOrderGT1_Buffer100m_Native_count_NCLLS}))*100
+The result is classed according to this table:
+1 - up to 10
+2 - up to 20
+3 - up to 30
+4 - up to 40
+5 - up to 50
+6 - up to 60
+7 - up to 70
+8 - up to 80
+9 - up to 90
+10 - above 90
+
+</log-text><splits><threshold value="10" /><threshold value="20" /><threshold value="30" /><threshold value="40" /><threshold value="50" /><threshold value="60" /><threshold value="70" /><threshold value="80" /><threshold value="90" /></splits></classified-data>

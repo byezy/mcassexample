@@ -1,0 +1,38 @@
+Title: MultiAttributeRichmond_CanopyDens
+Description: MultiAttributeRichmond_CanopyDens
+_1: _
+URL1: 
+URL2: 
+URL3: 
+File1: None
+File2: None
+File3: None
+_2: _
+Source_Custodian: NSW Office of Environment and Heritage
+Source_Currency: 
+Source_Lineage: See reports
+Source_Resolution: Variable see scale map for soil landscapes
+Source_Projection: Geographic
+Source_Extent_Region: NSW
+Source_Extent_Coordinates: None
+Source_Data_Format: Feature Polygon
+_3: _
+MCAS_S_Currency: 3/08/2018
+MCAS_S_Lineage: Derived from OEH Spatial (P) Drive
+MCAS_S_Resolution: 100
+MCAS_S_Projection: GDA_1994_UTM_Zone_56S
+MCAS_S_Extent_Region: NSW
+MCAS_S_Extent_Coordinates: 346600 6478200 568100 6886200 NaN NaN NaN NaN
+MCAS_S_Data_Format: RasterDataset
+MCAS_S_Data_type: tif
+_4: _
+MCAS_S_Units: 
+MCAS_S_Units_Ranking: 1=Low risk to 9=very high risk
+MCAS_S_Contact_Organization: NSW OEH
+MCAS_S_Contact_Name: Tom Barrett
+MCAS_S_Contact_e_mail: tom.barrett@environment.nsw.gov.au
+_5: _
+CategoryValue: Value
+CategoryLabel: Label
+CategorySort: true
+

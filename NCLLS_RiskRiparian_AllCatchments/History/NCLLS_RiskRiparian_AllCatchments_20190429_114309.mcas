@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project schema="4" version="3.2.0.45" zoom="0.25" panleft="196" pantop="1816" MaskData="true" MaskIntersect="true">
+  <mask path="Data\Mask\LocalLandServiceRegions_LLS.tif" index="2" />
+  <overlay-color path="Overlay\ABARE" red="255" green="128" blue="0" />
+  <overlay-color path="Overlay\Tempzones\tempzones" red="255" green="0" blue="0" />
+  <overlay-color path="Overlay\Catchments\catchments" red="0" green="0" blue="255" />
+  <overlay-color path="Overlay\Roads" red="255" green="0" blue="0" />
+  <overlay-color path="Overlay\Agroecological" red="255" green="255" blue="0" />
+  <overlay-color path="Overlay\Rainzones\rainzones" red="0" green="128" blue="192" />
+  <overlay-color path="Overlay\Rivers" red="0" green="0" blue="255" />
+  <overlay-color path="Overlay\LLS_Watercourse" red="0" green="255" blue="255" />
+  <layers>
+    <layer layer-id="L0" type="numericCategorical" caption="StreamOrder_Buffer100m_StreamOrd" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Primary\Water\RiparianZone\StreamOrder_Buffer100m_StreamOrd.tif" X="4812" Y="2512" Width="536" Height="536">
+      <category-weights>
+        <category-item index="1" weight="0" />
+        <category-item index="2" weight="2" />
+        <category-item index="3" weight="2" />
+        <category-item index="4" weight="2" />
+        <category-item index="5" weight="2" />
+        <category-item index="6" weight="2" />
+        <category-item index="7" weight="2" />
+        <category-item index="8" weight="2" />
+        <category-item index="9" weight="2" />
+        <category-item index="10" weight="2" />
+      </category-weights>
+    </layer>
+    <layer layer-id="L1" type="numericCategorical" caption="NSW_Native_Vegetation_Extent_v1_5m_2017_Label" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Primary\Other_OEH_SEED\NSW_Native_Vegetation_Extent_v1_5m_2017_Label.tif" X="4852" Y="3180" Width="536" Height="536">
+      <category-weights>
+        <category-item index="0" weight="1" />
+        <category-item index="1" weight="1" />
+        <category-item index="2" weight="100" />
+        <category-item index="3" weight="100" />
+        <category-item index="4" weight="100" />
+        <category-item index="5" weight="1" />
+        <category-item index="6" weight="100" />
+        <category-item index="128" weight="1" />
+      </category-weights>
+    </layer>
+    <layer layer-id="L2" type="continuous" caption="StreamOrderGT1_Buffer100m_Native_count_NCLLS" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Classified\Riparian\StreamOrderGT1_Buffer100m_Native_count_NCLLS.tif" X="4256" Y="3836" Width="536" Height="536" Distribution="EvenInterval">
+      <colors scheme="Color">
+        <color red="81" green="38" blue="255" />
+        <color red="38" green="222" blue="255" />
+        <color red="38" green="255" blue="59" />
+        <color red="244" green="255" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="253.2" />
+        <threshold value="506.4" />
+        <threshold value="759.6" />
+        <threshold value="1012.8" />
+      </splits>
+    </layer>
+    <layer layer-id="L3" type="continuous" caption="StreamOrderGT1_Buffer100m_NonNative_Count_NCLLS" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Classified\Riparian\StreamOrderGT1_Buffer100m_NonNative_Count_NCLLS.tif" X="4272" Y="4488" Width="536" Height="536" Distribution="EvenInterval">
+      <colors scheme="Color">
+        <color red="81" green="38" blue="255" />
+        <color red="38" green="222" blue="255" />
+        <color red="38" green="255" blue="59" />
+        <color red="244" green="255" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="725.6" />
+        <threshold value="1451.2" />
+        <threshold value="2176.8" />
+        <threshold value="2902.4" />
+      </splits>
+    </layer>
+    <layer layer-id="L4" type="continuous" caption="Risk_StreamOderGT1_Buffer100m_PC_NonNative_NCLLS" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Classified\Risk\Risk_StreamOderGT1_Buffer100m_PC_NonNative_NCLLS.tif" X="2612" Y="3084" Width="608" Height="608" Reverse="True" Distribution="EvenInterval">
+      <colors scheme="Color">
+        <color red="81" green="38" blue="255" />
+        <color red="38" green="96" blue="255" />
+        <color red="38" green="197" blue="255" />
+        <color red="38" green="255" blue="211" />
+        <color red="38" green="255" blue="110" />
+        <color red="67" green="255" blue="38" />
+        <color red="168" green="255" blue="38" />
+        <color red="255" green="240" blue="38" />
+        <color red="255" green="139" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="10" />
+        <threshold value="20" />
+        <threshold value="30" />
+        <threshold value="40" />
+        <threshold value="50" />
+        <threshold value="60" />
+        <threshold value="70" />
+        <threshold value="80" />
+        <threshold value="90" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="Class 1" />
+        <class-item index="2" name="Class 2" />
+        <class-item index="3" name="Class 3" />
+        <class-item index="4" name="Class 4" />
+        <class-item index="5" name="Class 5" />
+        <class-item index="6" name="Class 6" />
+        <class-item index="7" name="Class 7" />
+        <class-item index="8" name="Class 8" />
+        <class-item index="9" name="Class 9" />
+        <class-item index="10" name="Class 10" />
+      </class-names>
+    </layer>
+    <layer layer-id="L5" type="continuous" caption="Risk_StreamFragility_BFT_max4_NCLLS" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Classified\Risk\Risk_StreamFragility_BFT_max4_NCLLS.tif" X="1840" Y="1860" Width="972" Height="972" Distribution="EvenInterval">
+      <colors scheme="Color">
+        <color red="81" green="38" blue="255" />
+        <color red="38" green="255" blue="59" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="33.33333" />
+        <threshold value="66.66666" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="Low" />
+        <class-item index="3" name="High" />
+        <class-item index="5" name="High" />
+        <class-item index="2" name="Medium" />
+      </class-names>
+    </layer>
+    <layer layer-id="L6" type="multi-criteria" method="Standard" manual-function="Multiplication" caption="Riparian Vegetation_wt" X="4084" Y="2828" Width="536" Height="536" Custom-Minimum="0" Distribution="EqualArea">
+      <colors scheme="Color">
+        <color red="128" green="64" blue="0" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="3.125" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="Non-native" />
+        <class-item index="10" name="Native" />
+        <class-item index="2" name="Native" />
+      </class-names>
+      <weighting>
+        <layer layer-id="L1" weight="1" raw="true" />
+        <layer layer-id="L0" weight="1" raw="true" />
+      </weighting>
+    </layer>
+    <layer layer-id="L7" type="multi-criteria" method="Function" caption="StreamOderGT1_Buffer100m_PC_NonNative" X="2996" Y="4128" Width="536" Height="536" Reverse="True" Distribution="EvenInterval" FillNoData="true">
+      <colors scheme="Color">
+        <color red="81" green="38" blue="255" />
+        <color red="38" green="96" blue="255" />
+        <color red="38" green="197" blue="255" />
+        <color red="38" green="255" blue="211" />
+        <color red="38" green="255" blue="110" />
+        <color red="67" green="255" blue="38" />
+        <color red="168" green="255" blue="38" />
+        <color red="255" green="240" blue="38" />
+        <color red="255" green="139" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="10" />
+        <threshold value="20" />
+        <threshold value="30" />
+        <threshold value="40" />
+        <threshold value="50" />
+        <threshold value="60" />
+        <threshold value="70" />
+        <threshold value="80" />
+        <threshold value="90" />
+      </splits>
+      <function>({StreamOrderGT1_Buffer100m_Native_count_NCLLS}/({StreamOrderGT1_Buffer100m_NonNative_count_NCLLS}+{StreamOrderGT1_Buffer100m_Native_count_NCLLS}))*100</function>
+    </layer>
+    <layer layer-id="L8" type="combination" caption="Risk_RiparianVeg_StreamFragility_BFT_2_NCLLS" X="384" Y="2212" Width="1056" Height="1056">
+      <colors scheme="Color">
+        <color red="192" green="192" blue="192" />
+        <color red="228" green="255" blue="38" />
+        <color red="255" green="159" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="0.25" />
+        <threshold value="0.5" />
+        <threshold value="0.75" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="Low" />
+        <class-item index="2" name="Moderate" />
+        <class-item index="3" name="High" />
+        <class-item index="4" name="Very high" />
+      </class-names>
+      <map xaxis="L5" yaxis="L4" rows="10" columns="3">
+        <cell x="0" y="0" v="2" />
+        <cell x="0" y="1" v="2" />
+        <cell x="0" y="2" v="2" />
+        <cell x="0" y="3" v="2" />
+        <cell x="0" y="4" v="2" />
+        <cell x="0" y="5" v="1" />
+        <cell x="0" y="6" v="1" />
+        <cell x="0" y="7" v="1" />
+        <cell x="0" y="8" v="1" />
+        <cell x="0" y="9" v="1" />
+        <cell x="1" y="0" v="3" />
+        <cell x="1" y="1" v="3" />
+        <cell x="1" y="2" v="3" />
+        <cell x="1" y="3" v="3" />
+        <cell x="1" y="4" v="2" />
+        <cell x="1" y="5" v="1" />
+        <cell x="1" y="6" v="1" />
+        <cell x="1" y="7" v="1" />
+        <cell x="1" y="8" v="1" />
+        <cell x="1" y="9" v="1" />
+        <cell x="2" y="0" v="4" />
+        <cell x="2" y="1" v="4" />
+        <cell x="2" y="2" v="4" />
+        <cell x="2" y="3" v="3" />
+        <cell x="2" y="4" v="2" />
+        <cell x="2" y="5" v="1" />
+        <cell x="2" y="6" v="1" />
+        <cell x="2" y="7" v="1" />
+        <cell x="2" y="8" v="1" />
+        <cell x="2" y="9" v="1" />
+      </map>
+    </layer>
+  </layers>
+  <customcolors>
+    <c>00FF2651</c>
+    <c>00FF3726</c>
+    <c>00FF7426</c>
+    <c>00FFB026</c>
+    <c>00FFED26</c>
+    <c>00D3FF26</c>
+    <c>0096FF26</c>
+    <c>005AFF26</c>
+    <c>0026FF2E</c>
+    <c>0026FF6B</c>
+    <c>0026FFA8</c>
+    <c>0026FFE4</c>
+    <c>0026DCFF</c>
+    <c>00269FFF</c>
+    <c>002662FF</c>
+    <c>002626FF</c>
+  </customcolors>
+</project>

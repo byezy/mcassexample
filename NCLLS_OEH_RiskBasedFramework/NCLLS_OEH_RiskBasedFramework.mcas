@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project schema="4" version="3.2.0.45" zoom="1" panleft="73" pantop="23" MaskData="true" MaskIntersect="true">
+  <mask path="Data\Mask\Catchments_TAG.tif" index="4" />
+  <overlays>
+    <overlay name="LLS_Coastline" />
+    <overlay name="LLS_LGA_zones" />
+  </overlays>
+  <overlay-color path="Overlay\ABARE" red="255" green="128" blue="0" />
+  <overlay-color path="Overlay\Tempzones\tempzones" red="255" green="0" blue="0" />
+  <overlay-color path="Overlay\Catchments\catchments" red="0" green="0" blue="255" />
+  <overlay-color path="Overlay\Roads" red="255" green="0" blue="0" />
+  <overlay-color path="Overlay\Agroecological" red="255" green="255" blue="0" />
+  <overlay-color path="Overlay\Rainzones\rainzones" red="0" green="128" blue="192" />
+  <overlay-color path="Overlay\Rivers" red="0" green="0" blue="255" />
+  <layers>
+    <layer layer-id="L0" type="continuous" caption="HealthRisk_LIKELIHOOD" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Primary\OEH_Risk_Based_Framework_2018\EstuarySubcatchmentHealthRisk_LIKELIHOOD.tif" X="645" Y="48" Width="253" Height="253" Custom-Minimum="0" Distribution="EvenInterval">
+      <colors scheme="Color">
+        <color red="192" green="192" blue="192" />
+        <color red="0" green="128" blue="0" />
+        <color red="0" green="255" blue="0" />
+        <color red="255" green="159" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <cropping crop-mode="DiscardData" crop-lower="True" crop-upper="False" crop-lower-threshold="0" crop-upper-threshold="0.5" />
+      <splits>
+        <threshold value="0.8" />
+        <threshold value="1.6" />
+        <threshold value="2.4" />
+        <threshold value="3.2" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="No Data" />
+        <class-item index="2" name="Likelihood=1" />
+        <class-item index="3" name="Likelihood=2" />
+        <class-item index="4" name="Likelihood=3" />
+        <class-item index="5" name="Likelihood=4" />
+      </class-names>
+    </layer>
+    <layer layer-id="L1" type="continuous" caption="HealthRisk_CONSEQUENC" path="R:\TomBarrett\Data\Study_Area_North_Coast_LLS\MCAS-S_DATAPACKS\NC_LLS_MCAS-S_Datapack_2018\Data\Primary\OEH_Risk_Based_Framework_2018\EstuarySubcatchmentHealthRisk_CONSEQUENC.tif" X="645" Y="323" Width="253" Height="253" Custom-Minimum="0" Distribution="EvenInterval">
+      <colors scheme="Color">
+        <color red="81" green="38" blue="255" />
+        <color red="0" green="128" blue="0" />
+        <color red="0" green="255" blue="0" />
+        <color red="255" green="159" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <cropping crop-mode="DiscardData" crop-lower="True" crop-upper="False" crop-lower-threshold="0" crop-upper-threshold="0.5" />
+      <splits>
+        <threshold value="0.8" />
+        <threshold value="1.6" />
+        <threshold value="2.4" />
+        <threshold value="3.2" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="No Data" />
+        <class-item index="2" name="Concequence=1" />
+        <class-item index="3" name="Concequence=2" />
+        <class-item index="4" name="Concequence=3" />
+        <class-item index="5" name="Concequence=4" />
+      </class-names>
+    </layer>
+    <layer layer-id="L2" type="combination" caption="RISK-TwoWay" X="93" Y="49" Width="529" Height="529">
+      <colors scheme="Color">
+        <color red="192" green="192" blue="192" />
+        <color red="0" green="128" blue="0" />
+        <color red="46" green="255" blue="38" />
+        <color red="107" green="255" blue="38" />
+        <color red="168" green="255" blue="38" />
+        <color red="228" green="255" blue="38" />
+        <color red="255" green="220" blue="38" />
+        <color red="255" green="159" blue="38" />
+        <color red="255" green="98" blue="38" />
+        <color red="255" green="38" blue="38" />
+      </colors>
+      <splits>
+        <threshold value="0.1" />
+        <threshold value="0.2" />
+        <threshold value="0.3" />
+        <threshold value="0.4" />
+        <threshold value="0.5" />
+        <threshold value="0.6" />
+        <threshold value="0.7" />
+        <threshold value="0.8" />
+        <threshold value="0.9" />
+      </splits>
+      <class-names>
+        <class-item index="1" name="No Data" />
+        <class-item index="2" name="Risk=1" />
+        <class-item index="3" name="Risk=2" />
+        <class-item index="4" name="Risk=3" />
+        <class-item index="5" name="Risk=4" />
+        <class-item index="6" name="Risk=6" />
+        <class-item index="7" name="Risk=8" />
+        <class-item index="8" name="Risk=9" />
+        <class-item index="9" name="Risk=12" />
+        <class-item index="10" name="Risk=16" />
+      </class-names>
+      <map xaxis="L1" yaxis="L0" rows="5" columns="5">
+        <cell x="0" y="0" v="1" />
+        <cell x="0" y="1" v="1" />
+        <cell x="0" y="2" v="1" />
+        <cell x="0" y="3" v="1" />
+        <cell x="0" y="4" v="1" />
+        <cell x="1" y="0" v="5" />
+        <cell x="1" y="1" v="4" />
+        <cell x="1" y="2" v="3" />
+        <cell x="1" y="3" v="2" />
+        <cell x="1" y="4" v="1" />
+        <cell x="2" y="0" v="7" />
+        <cell x="2" y="1" v="6" />
+        <cell x="2" y="2" v="5" />
+        <cell x="2" y="3" v="3" />
+        <cell x="2" y="4" v="1" />
+        <cell x="3" y="0" v="9" />
+        <cell x="3" y="1" v="8" />
+        <cell x="3" y="2" v="6" />
+        <cell x="3" y="3" v="4" />
+        <cell x="3" y="4" v="1" />
+        <cell x="4" y="0" v="10" />
+        <cell x="4" y="1" v="9" />
+        <cell x="4" y="2" v="7" />
+        <cell x="4" y="3" v="5" />
+        <cell x="4" y="4" v="1" />
+      </map>
+    </layer>
+  </layers>
+  <customcolors>
+    <c>00FF2651</c>
+    <c>00FF3726</c>
+    <c>00FF7426</c>
+    <c>00FFB026</c>
+    <c>00FFED26</c>
+    <c>00D3FF26</c>
+    <c>0096FF26</c>
+    <c>005AFF26</c>
+    <c>0026FF2E</c>
+    <c>0026FF6B</c>
+    <c>0026FFA8</c>
+    <c>0026FFE4</c>
+    <c>0026DCFF</c>
+    <c>00269FFF</c>
+    <c>002662FF</c>
+    <c>002626FF</c>
+  </customcolors>
+</project>
