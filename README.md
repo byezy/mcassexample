@@ -1,0 +1,2 @@
+# mcassexample
+Example MCASS Datapack
