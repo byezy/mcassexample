@@ -1,2 +1,2 @@
-# mcassexample
-Example MCASS Datapack
+# sample-spatial-data
+Sample spatial data
